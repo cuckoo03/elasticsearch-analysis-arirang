@@ -4,15 +4,15 @@
 
 	<groupId>org.elasticsearch</groupId>
 	<artifactId>elasticsearch-analysis-arirang</artifactId>
-	<version>1.0.0</version>
+	<version>1.4.0</version>
 	<packaging>jar</packaging>
 
 	<name>elasticsearch-analysis-arirang</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<elasticsearch.version>1.0.0</elasticsearch.version>
-		<lucene.version>4.6.1</lucene.version>
+		<elasticsearch.version>1.4.0</elasticsearch.version>
+		<lucene.version>4.10.2</lucene.version>
 		<org.slf4j.version>1.6.0</org.slf4j.version>
 	</properties>
 
