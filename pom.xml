@@ -4,7 +4,7 @@
 
 	<groupId>org.elasticsearch</groupId>
 	<artifactId>elasticsearch-analysis-arirang</artifactId>
-	<version>1.0.0</version>
+	<version>1.3.0</version>
 	<packaging>jar</packaging>
 
 	<name>elasticsearch-analysis-arirang</name>
