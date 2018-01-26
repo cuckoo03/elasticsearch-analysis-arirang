@@ -1,16 +1,11 @@
 package org.elasticsearch.plugin.analysis.arirang;
 
-import org.elasticsearch.common.inject.Module;
 import org.elasticsearch.index.analysis.AnalysisModule;
 import org.elasticsearch.index.analysis.ArirangAnalysisBinderProcessor;
-import org.elasticsearch.plugins.Plugin;
-import org.elasticsearch.rest.action.analysis.ArirangAnalyzerRestModule;
-
-import java.util.ArrayList;
-import java.util.Collection;
+import org.elasticsearch.plugins.AbstractPlugin;
 
 
-public class AnalysisArirangPlugin extends Plugin {
+public class AnalysisArirangPlugin extends AbstractPlugin {
 
     @Override
     public String name() {
@@ -20,14 +15,6 @@ public class AnalysisArirangPlugin extends Plugin {
     @Override
     public String description() {
         return "Korean Analyzer";
-    }
-
-    @Override
-    public Collection<Module> nodeModules() {
-        Collection<Module> modules = new ArrayList<>();
-        modules.add(new ArirangAnalyzerRestModule());
-
-        return modules;
     }
 
     public void onModule(AnalysisModule module) {
